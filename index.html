@@ -27,15 +27,15 @@
 
           <div class="rightbottom">
             <ul>
-              <li>HOME</li>
-              <li>ROOM</li>
-              <li>SPECIALS</li>
-              <li>EXPERIENCES</li>
-              <li>PHOTOS</li>
-              <li>VIDEOS</li>
-              <li>TEAM</li>
-              <li>CONTACT US</li>
-              <li>360 VIEW</li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ROOM</a></li>
+              <li><a href="#">SPECIALS</a></li>
+              <li><a href="#">EXPERIENCES</a></li>
+              <li><a href="#">PHOTOS</a></li>
+              <li><a href="#">VIDEOS</a></li>
+              <li><a href="#">TEAM</a></li>
+              <li><a href="#">CONTACT US</a></li>
+              <li><a href="#">360 VIEW</a></li>
             </ul>
             <button class="btn">Quick Pay</button>
           </div>
@@ -45,7 +45,71 @@
 
     <section>
       <main>
-        <!-- <div class="form-box">This is box</div> -->
+        <div class="form-box">
+          <div class="form-top">
+            <h3>Best Price Guaranteed</h3>
+            <ul>
+              <li>Lowest Price available</li>
+              <li>INR 4,500</li>
+              <li>Check Prices</li>
+            </ul>
+          </div>
+
+          <form>
+            <label for="destnation-select">Property:</label
+            >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <select name="destination" id="destination">
+              <option value="">All Destinations</option>
+              <option value="agra">Agra</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Noida">Noida</option>
+              <option value="gurgaon">Gurgaon</option>
+              <option value="bangalore">Bangalore</option>
+            </select>
+
+            <br />
+            <br />
+
+            Check-in: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="date" name="stay" min="2023-06-21" max="2023-08-30" />
+
+            <br />
+            <br />
+            Check-out: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="date" name="stay" min="2023-06-21" max="2023-08-30" />
+
+            <br />
+            <br />
+
+            <label for="rooms-select">Room/Guest:</label>
+
+            <select name="rooms" id="rooms-select">
+              <option value="">1Room/2Adult</option>
+              <option value="dog">1Room/3Adult</option>
+              <option value="cat">1Room/4Adult</option>
+            </select>
+            <br />
+            <br />
+
+            <label for="uname">Promo Code: </label>
+            <input type="text" id="pcode" placeholder="Enter Promo Code" />
+
+            <br />
+            <br />
+
+            <p>*SUMMER25 to avail 25% discount on all bookings</p>
+            <p class="offer"><a href="/">View all offer</a></p>
+          </form>
+
+          <div class="form-bottom">
+            <h2>BOOK NOW</h2>
+          </div>
+
+          <p>
+            Already have a bookings?
+            <a href="/">Modify/ Cancel</a>
+          </p>
+        </div>
       </main>
     </section>
   </body>
